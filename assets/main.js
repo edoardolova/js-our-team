@@ -16,7 +16,7 @@ function renderCard(parent, arr){
                 <div class="card ">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="./${teamMember.img}" class="img-fluid rounded-start" alt="team member photo">
+                            <img src="./assets/${teamMember.img}" class="img-fluid rounded-start" alt="team member photo">
                         </div>
                         <div class="col-md-8 bg-dark text-white">
                             <div class="card-body">

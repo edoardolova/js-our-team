@@ -61,7 +61,7 @@ function renderCard(parent, arr){
                 <div class="card h-100">
                     <div class="row g-0">
                         <div class=" col-md-4 text-center">
-                            <img src="./${teamMember.img}" class="team-img  " alt="team member photo">
+                            <img src="./assets/${teamMember.img}" class="team-img  " alt="team member photo">
                         </div>
                         <div class="col-md-8 bg-dark text-white">
                             <div class="card-body d-flex flex-column">
