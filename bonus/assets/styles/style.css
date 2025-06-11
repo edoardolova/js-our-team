@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+:root{
+    --h1-color: #E53170;
+}
+
+h1{
+    color: var(--h1-color);
+}
+h1, h4{
+    font-family: "Varela Round", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+}
+/* 
+.team-img{
+    object-fit: cover;
+} */
+
