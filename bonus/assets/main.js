@@ -57,14 +57,14 @@ function renderCard(parent, arr){
     for(let i = 0; i < arr.length; i++){
         const teamMember = arr[i];
         const card = `
-            <div class="col-lg-4">
-                <div class="card ">
+            <div class="col-12 col-sm-6 col-lg-4 mb-4">
+                <div class="card h-100">
                     <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="./${teamMember.img}" class="img-fluid rounded-start team-img" alt="team member photo">
+                        <div class=" col-md-4 text-center">
+                            <img src="./${teamMember.img}" class="team-img  " alt="team member photo">
                         </div>
                         <div class="col-md-8 bg-dark text-white">
-                            <div class="card-body">
+                            <div class="card-body d-flex flex-column">
                                 <h4 class="card-title fw-bold">${teamMember.name}</h4>
                                 <p class="card-text">${teamMember.role}</p>
                                 <p class="card-text"><a href="#">${teamMember.email}</a></p>
